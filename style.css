@@ -1,0 +1,526 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    color: #032624;
+    line-height: 1.44;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-section,
+.about-Rocket,
+.more-details,
+.receive-news{
+    padding-right: 16.5%;
+    padding-left: 16.5%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 6.5%;
+}
+
+.logo-gx2 {
+    max-width: 6em;
+}
+
+.menu{
+    display: none;
+}
+
+.nav {
+    display: inline-block;    
+    font-weight: 500;
+}
+
+.list-nav {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+.list-nav a li {
+    color: #1C1C1D;
+    padding-right: 2.5em;
+}
+
+.list-nav a li::last-child {
+    padding-right: 0;
+}
+
+.button-contact {
+    background-color: #10DFC2;
+    border-radius: 15px;
+    font-weight: medium;
+    padding: .5em 4.375em;
+    color: white;
+    transition: all .7s;
+}
+
+.button-contact:hover {
+    background-color: #032624;
+    color: #10DFC2;
+}
+
+.main-section {
+    border: 1px solid #707070;
+    background: transparent 0% 0% no-repeat padding-box;
+    background-image: radial-gradient(transparent 40%, rgba(0, 0, 0, 0.45)), url(Imagens/background.png);
+    background-size: cover;
+    color: white;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    font-size: 1.4em;
+    display: grid;
+    grid-template-columns: repeat(2, 35%);
+    grid-gap: 20%;
+    grid-template-rows: auto;
+}
+
+.main-section-text h1{
+    font-size: 1.6em;
+}
+#logo-gx2-branco{
+    width: 15%;
+}
+
+.main-section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.main-section-text p{
+    margin: 0;
+}
+
+.main-section-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.main-section-logo img {
+    display: block;
+    margin: auto;
+} 
+
+#logo-foguete {
+    width: 40%;
+    margin-top: 0;
+}
+
+#logo-rocket-talents {
+    width: 75%;
+    margin-bottom: 0;
+}
+
+.about-Rocket,
+.prerequisite,
+.important-details {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.about-Rocket-text,
+.important-details-text {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 1em;
+    padding-right: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-Rocket-photo,
+.important-details-photo {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.prerequisite-photo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.prerequisite-text {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 1em;
+    padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-Rocket-photo img,
+.important-details-photo img,
+.prerequisite-photo img {
+    width: 70%;
+}
+
+.about-Rocket-text h2{
+    font-weight: 700;
+    font-size: 2.6em;
+    line-height: 1;
+}
+
+.p-green{
+    color: #0EAFAC;
+    font-weight: 600;
+}
+
+.how-it-works-text h2,
+.more-details h2 {
+    color: #10DFC2;
+    font-weight: 700;
+    font-size: 2.6em;
+    line-height: 1;
+    margin: 0%;
+    padding: .5em 0;
+    text-align: left;
+}
+.how-it-works{
+    padding: 5% 6.5%;
+    background-color: #F6F6F6;
+}
+
+.card {
+    box-shadow: 0px 0px 10px #00000029;
+    border-radius: 20px;
+    padding: 2em 2em;
+    margin: .5em;
+    text-align: center;
+}
+
+
+.card:hover {
+    background-color: white;
+}
+.how-it-works,
+.how-it-works h2 {
+    text-align: center;
+}
+
+.how-it-works-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: auto;
+}
+
+.card img {
+    width: 25%;
+}
+
+#lupa {
+    width: 20%;
+}
+
+.prerequisite-text ul, .important-details-text ul{
+    padding-left: 1em;
+}
+
+.receive-news {
+    background-color: #10DFC2;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 6%;
+    grid-template-rows: auto;
+    line-height: normal;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.receive-news-text h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.15em;
+}
+
+.div-receive-news-text {
+    margin: 0;
+}
+
+.receive-news-text p {
+    font-size: 1.1em;
+}
+
+.form label {
+    font-weight: 600;
+}
+
+#email {
+    display: block;
+    border-radius: 10px;
+    width: 60%;
+    outline: none;
+    border: transparent;
+    margin: .2em 0 1em 0;
+    height: 1.8em;
+}
+
+.button-orange {
+    border-radius: 10px;
+    color: white;
+    background-color: #FFB900;
+    border: 1px solid transparent;
+    padding: .5em 1.25em;
+    font-size: .9em;
+    font-weight: 600;
+    margin: 1em 0;
+    box-sizing: border-box;
+}
+
+.button-orange:hover {
+    background-color: white;
+    color: #FFB900;
+    border: 1px solid #FFB900;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #04254C;
+    color: white;
+    padding: 2em 6.5%;
+    display: grid;
+    grid-template-columns: 30% 15% 30%;
+    grid-template-rows: auto;
+    grid-gap: 10%;
+}
+
+.logo-footer {
+    display: block;
+    margin-bottom: 12%;
+    line-height: 1.2;
+}
+
+.contact-us {
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-top: 9%;
+}
+
+.contact-us img {
+    width: 1em;
+}
+
+.footer-text {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.footer-services {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 0;
+}
+
+.footer ul{
+    padding-left: 0;
+}
+
+.footer-services ul li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: .7em 0;
+}
+
+.footer-addresses {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding-bottom: 1em;
+}
+
+address{
+    font-style: normal;
+}
+
+.address{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.address p{
+    font-weight: 600;
+}
+
+.link-services-footer {
+    text-align: left;
+    color: white;
+}
+
+.icon-background {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: white;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    display: block;
+    margin: auto;
+    margin-right: 1.5em;
+}
+
+.icon-background img {
+    display: block;
+    margin: auto;
+    padding-top: .7em;
+}
+
+.address p {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.address address {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+@media screen and (max-width: 88.75em) {
+
+    .main-section{
+        font-size: 1.1em;
+        grid-gap: 24%;
+        padding-right: 14%;
+        padding-left: 14%;
+    }
+    .main-section-text h1{
+        font-size: 1.3em;
+    }
+    #logo-foguete {
+        width: 25%;
+    }
+    
+    #logo-rocket-talents {
+        width: 55%;
+    }
+
+}
+
+@media screen and (max-width: 66.25em){
+    .main-section{
+        font-size: 1em;
+    }
+
+    .main-section-text h1{
+        font-size: 1.4em;
+    }
+
+    .about-Rocket,
+    .prerequisite,
+    .important-details {
+        font-size: 1em;
+    }
+
+    .about-Rocket h2,
+    .how-it-works-text h2,
+    .more-details h2{
+       font-size: 1.3em; 
+    }
+    .main-section,
+    .about-Rocket,
+    .receive-news,
+    .more-details{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .main-section{
+        grid-gap: 30%;
+    }
+
+    .how-it-works,
+    header,
+    footer{
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+}
+@media screen and (max-width: 50.57em){
+
+    .main-section,
+    .about-Rocket,
+    .receive-news,
+    .more-details{
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+
+    .how-it-works,
+    header,
+    footer{
+        padding-right: .5em;
+        padding-left: .5em;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        font-size: 1.5em;
+    }
+    
+    .menu a {
+        color: #032624;
+    }
+
+    #logo-foguete {
+        margin-top: 10%;
+    }
+
+    .how-it-works-cards, footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .card img, #lupa{
+        width: 10%;
+    }
+
+}
+@media screen and (max-width: 43.125em)   {
+    .main-section,
+    .about-Rocket,
+    .receive-news,
+    .more-details{
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    .about-Rocket,
+    .important-details,
+    .prerequisite{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    
+}
+
