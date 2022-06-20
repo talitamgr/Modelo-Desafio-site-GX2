@@ -193,7 +193,7 @@ header {
 
 .how-it-works-text h2,
 .more-details h2 {
-    color: #10DFC2;
+    color: #0EAFAC;
     font-weight: 700;
     font-size: 2.6em;
     line-height: 1;
@@ -212,11 +212,10 @@ header {
     border-radius: 20px;
     padding: 2em 2em;
     margin: .5em;
-    text-align: center;
     background-color: white;
 }
 
-.how-it-works,
+.how-it-works-text,
 .how-it-works h2 {
     text-align: center;
 }
@@ -228,11 +227,15 @@ header {
 }
 
 .card img {
-    width: 25%;
+    max-width: 1.8em;
 }
 
-#lupa {
-    width: 20%;
+#foguete{
+    max-width: 1.6em;
+}
+
+#grupo{
+    max-width: 2em;
 }
 
 .prerequisite-text ul,
@@ -241,7 +244,7 @@ header {
 }
 
 .receive-news {
-    background-color: #10DFC2;
+    background-color: #19DBD1;
     color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
