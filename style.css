@@ -15,7 +15,7 @@ a {
 .main-section,
 .about-Rocket,
 .more-details,
-.receive-news{
+.receive-news {
     padding-right: 16.5%;
     padding-left: 16.5%;
 }
@@ -30,12 +30,12 @@ header {
     max-width: 6em;
 }
 
-.menu{
+.menu {
     display: none;
 }
 
 .nav {
-    display: inline-block;    
+    display: inline-block;
     font-weight: 500;
 }
 
@@ -83,21 +83,23 @@ header {
     grid-template-rows: auto;
 }
 
-.main-section-text h1{
+.main-section-text h1 {
     font-size: 1.6em;
 }
-#logo-gx2-branco{
+
+#logo-gx2-branco {
     width: 15%;
 }
 
-.main-section-text{
+.main-section-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     grid-column: 1/2;
     grid-row: 1/2;
 }
-.main-section-text p{
+
+.main-section-text p {
     margin: 0;
 }
 
@@ -112,7 +114,7 @@ header {
 .main-section-logo img {
     display: block;
     margin: auto;
-} 
+}
 
 #logo-foguete {
     width: 40%;
@@ -178,13 +180,13 @@ header {
     width: 70%;
 }
 
-.about-Rocket-text h2{
+.about-Rocket-text h2 {
     font-weight: 700;
     font-size: 2.6em;
     line-height: 1;
 }
 
-.p-green{
+.p-green {
     color: #0EAFAC;
     font-weight: 600;
 }
@@ -199,7 +201,8 @@ header {
     padding: .5em 0;
     text-align: left;
 }
-.how-it-works{
+
+.how-it-works {
     padding: 5% 6.5%;
     background-color: #F6F6F6;
 }
@@ -210,12 +213,9 @@ header {
     padding: 2em 2em;
     margin: .5em;
     text-align: center;
-}
-
-
-.card:hover {
     background-color: white;
 }
+
 .how-it-works,
 .how-it-works h2 {
     text-align: center;
@@ -235,7 +235,8 @@ header {
     width: 20%;
 }
 
-.prerequisite-text ul, .important-details-text ul{
+.prerequisite-text ul,
+.important-details-text ul {
     padding-left: 1em;
 }
 
@@ -336,7 +337,7 @@ footer {
     padding: 0;
 }
 
-.footer ul{
+.footer ul {
     padding-left: 0;
 }
 
@@ -353,17 +354,17 @@ footer {
     padding-bottom: 1em;
 }
 
-address{
+address {
     font-style: normal;
 }
 
-.address{
+.address {
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: repeat(2, 1fr);
 }
 
-.address p{
+.address p {
     font-weight: 600;
 }
 
@@ -402,31 +403,33 @@ address{
 
 @media screen and (max-width: 88.75em) {
 
-    .main-section{
+    .main-section {
         font-size: 1.1em;
         grid-gap: 24%;
         padding-right: 14%;
         padding-left: 14%;
     }
-    .main-section-text h1{
+
+    .main-section-text h1 {
         font-size: 1.3em;
     }
+
     #logo-foguete {
         width: 25%;
     }
-    
+
     #logo-rocket-talents {
         width: 55%;
     }
 
 }
 
-@media screen and (max-width: 66.25em){
-    .main-section{
+@media screen and (max-width: 66.25em) {
+    .main-section {
         font-size: 1em;
     }
 
-    .main-section-text h1{
+    .main-section-text h1 {
         font-size: 1.4em;
     }
 
@@ -438,46 +441,48 @@ address{
 
     .about-Rocket h2,
     .how-it-works-text h2,
-    .more-details h2{
-       font-size: 1.3em; 
+    .more-details h2 {
+        font-size: 1.3em;
     }
+
     .main-section,
     .about-Rocket,
     .receive-news,
-    .more-details{
+    .more-details {
         padding-right: 10%;
         padding-left: 10%;
     }
 
-    .main-section{
+    .main-section {
         grid-gap: 30%;
     }
 
     .how-it-works,
     header,
-    footer{
+    footer {
         padding-right: 2%;
         padding-left: 2%;
     }
 }
-@media screen and (max-width: 50.57em){
+
+@media screen and (max-width: 50.57em) {
 
     .main-section,
     .about-Rocket,
     .receive-news,
-    .more-details{
+    .more-details {
         padding-right: 4%;
         padding-left: 4%;
     }
 
     .how-it-works,
     header,
-    footer{
+    footer {
         padding-right: .5em;
         padding-left: .5em;
     }
 
-    .nav{
+    .nav {
         display: none;
     }
 
@@ -485,7 +490,7 @@ address{
         display: block;
         font-size: 1.5em;
     }
-    
+
     .menu a {
         color: #032624;
     }
@@ -494,33 +499,37 @@ address{
         margin-top: 10%;
     }
 
-    .how-it-works-cards, footer{
+    .how-it-works-cards,
+    footer {
         display: flex;
         flex-direction: column;
     }
-    .card img, #lupa{
+
+    .card img,
+    #lupa {
         width: 10%;
     }
 
 }
-@media screen and (max-width: 43.125em)   {
+
+@media screen and (max-width: 43.125em) {
+
     .main-section,
     .about-Rocket,
     .receive-news,
-    .more-details{
+    .more-details {
         padding-right: 2%;
         padding-left: 2%;
     }
 
     .about-Rocket,
     .important-details,
-    .prerequisite{
+    .prerequisite {
         display: flex;
         flex-direction: column;
     }
 
 
 
-    
-}
 
+}
